@@ -3,10 +3,20 @@
 #Initial Contet - adding more content
 #More more more
 
-echo "My name is computer"
-echo -e "What is your name: "
+user=$(whoami)
+host=$(hostname)
+greeting="My name is $host"
+
+echo ""
+
+echo -e "What is your name?: "
 read name
 
-echo "I wish $name wasn't my owner..."
-
+echo ""
+echo "$greeting"
+echo ""
+echo "The acount $user is logged in"
+echo ""
+echo "$name is just an imposter!"
+echo ""
 
