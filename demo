@@ -17,6 +17,6 @@ echo "$greeting"
 echo ""
 echo "The acount $user is logged in"
 echo ""
-echo "$name is just an imposter!"
+echo "$name, and $user should be friends..."
 echo ""
 
